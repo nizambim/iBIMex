@@ -1,0 +1,1492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="IBIMEX Consultancy (M) Sdn Bhd provides BIM consulting, BIM outsourcing, drafting, MEP BIM, Revit modelling, shop drawings and BIM training courses across Malaysia.">
+  <meta property="og:title" content="iBIMex | BIM Execution, Coordination & Digital Construction Support">
+  <meta property="og:description" content="BIM services and BIM training for architecture, civil, structure, mechanical, electrical and gas disciplines across Malaysia.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.i-bimex.com/">
+  <meta property="og:image" content="https://www.i-bimex.com/assets/hero-bim.png">
+  <link rel="canonical" href="https://www.i-bimex.com/">
+  <title>iBIMex | BIM Services & BIM Training Malaysia</title>
+  <script>
+    if (location.protocol === "http:" && /(^|\.)i-bimex\.com$/i.test(location.hostname)) {
+      location.replace("https://" + location.host + location.pathname + location.search + location.hash);
+    }
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "IBIMEX Consultancy (M) Sdn Bhd",
+      "alternateName": "iBIMex",
+      "url": "https://www.i-bimex.com/",
+      "slogan": "Where Experts BIM",
+      "description": "BIM consulting, BIM outsourcing, drafting services, MEP BIM services, Revit modelling, shop drawings and BIM training courses across Malaysia.",
+      "telephone": "+60386883872",
+      "email": "enquiry@i-bimex.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "B2-2-3, Solaris Dutamas, No. 1, Jalan Dutamas 1",
+        "addressLocality": "Kuala Lumpur",
+        "postalCode": "50480",
+        "addressRegion": "Wilayah Persekutuan",
+        "addressCountry": "MY"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Malaysia"
+      },
+      "serviceType": [
+        "BIM Consulting",
+        "BIM Outsourcing",
+        "Drafting Services",
+        "MEP BIM Services",
+        "Revit Modeling",
+        "Shop Drawings",
+        "BIM Training Course",
+        "Architecture BIM Training",
+        "Civil BIM Training",
+        "Structure BIM Training",
+        "Mechanical BIM Training",
+        "Electrical BIM Training",
+        "Gas BIM Training"
+      ]
+    }
+  </script>
+  <style>
+    :root {
+      --ink: #101827;
+      --muted: #667085;
+      --line: #d9e0ea;
+      --paper: #ffffff;
+      --soft: #f5f7fb;
+      --brand: #6f2578;
+      --brand-dark: #46154f;
+      --accent: #ff7a1a;
+      --success: #16a34a;
+      --whatsapp: #25d366;
+      --shadow: 0 18px 50px rgba(16, 32, 51, 0.12);
+      --radius: 8px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: Inter, "Segoe UI", Arial, sans-serif;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    .container {
+      width: min(1160px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    .topbar {
+      background: rgba(7, 16, 32, 0.9);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+      backdrop-filter: blur(16px);
+      left: 0;
+      position: fixed;
+      right: 0;
+      top: 0;
+      z-index: 50;
+    }
+
+    .nav {
+      align-items: center;
+      display: flex;
+      height: 74px;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .brand {
+      align-items: center;
+      display: flex;
+      gap: 12px;
+      min-width: fit-content;
+    }
+
+    .brand-mark {
+      align-items: center;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 8px;
+      display: flex;
+      height: 48px;
+      justify-content: center;
+      padding: 5px;
+      width: 68px;
+    }
+
+    .brand-mark img {
+      height: 100%;
+      object-fit: contain;
+      width: 100%;
+    }
+
+    .brand-name {
+      display: grid;
+      line-height: 1.05;
+    }
+
+    .brand-name strong {
+      color: white;
+      font-size: 1.25rem;
+      letter-spacing: -0.03em;
+    }
+
+    .brand-name span {
+      color: #d7a5df;
+      font-size: 0.68rem;
+      font-weight: 800;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    .nav-links {
+      align-items: center;
+      display: flex;
+      gap: 6px;
+      list-style: none;
+    }
+
+    .nav-links a {
+      border-radius: 999px;
+      color: rgba(255, 255, 255, 0.78);
+      display: block;
+      font-size: 0.94rem;
+      font-weight: 700;
+      padding: 10px 13px;
+      transition: background 180ms ease, color 180ms ease;
+    }
+
+    .nav-links a:hover,
+    .nav-links a.active {
+      background: rgba(255, 255, 255, 0.12);
+      color: white;
+    }
+
+    .nav-actions {
+      align-items: center;
+      display: flex;
+      gap: 10px;
+    }
+
+    .menu-toggle {
+      align-items: center;
+      background: var(--ink);
+      border: 0;
+      border-radius: 8px;
+      color: white;
+      cursor: pointer;
+      display: none;
+      height: 42px;
+      justify-content: center;
+      width: 42px;
+    }
+
+    .btn {
+      align-items: center;
+      border: 0;
+      border-radius: 8px;
+      cursor: pointer;
+      display: inline-flex;
+      font-weight: 800;
+      gap: 10px;
+      justify-content: center;
+      min-height: 44px;
+      padding: 12px 18px;
+      transition: transform 180ms ease, box-shadow 180ms ease, background 180ms ease;
+      white-space: nowrap;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+    }
+
+    .btn-primary {
+      background: var(--brand);
+      box-shadow: 0 14px 30px rgba(111, 37, 120, 0.28);
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background: var(--brand-dark);
+    }
+
+    .btn-accent {
+      background: var(--accent);
+      box-shadow: 0 14px 30px rgba(255, 107, 53, 0.22);
+      color: white;
+    }
+
+    .btn-whatsapp {
+      background: var(--whatsapp);
+      box-shadow: 0 14px 30px rgba(37, 211, 102, 0.24);
+      color: #062914;
+    }
+
+    .btn-light {
+      background: rgba(255, 255, 255, 0.92);
+      color: var(--ink);
+    }
+
+    .btn-outline {
+      background: white;
+      border: 1px solid var(--line);
+      color: var(--ink);
+    }
+
+    .hero {
+      align-items: center;
+      background:
+        linear-gradient(90deg, rgba(7, 16, 32, 0.98) 0%, rgba(7, 16, 32, 0.84) 45%, rgba(7, 16, 32, 0.22) 100%),
+        url("assets/hero-bim.png");
+      background-position: center;
+      background-size: cover;
+      color: white;
+      display: flex;
+      min-height: 100vh;
+      padding: 124px 0 72px;
+      position: relative;
+    }
+
+    .hero-grid {
+      align-items: center;
+      display: grid;
+      gap: 42px;
+      grid-template-columns: minmax(0, 1.08fr) minmax(330px, 0.72fr);
+    }
+
+    .eyebrow {
+      align-items: center;
+      background: rgba(255, 255, 255, 0.14);
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      border-radius: 999px;
+      display: inline-flex;
+      font-size: 0.82rem;
+      font-weight: 900;
+      gap: 10px;
+      letter-spacing: 0.1em;
+      margin-bottom: 20px;
+      padding: 8px 12px;
+      text-transform: uppercase;
+    }
+
+    .hero-logo {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      border-radius: var(--radius);
+      margin-bottom: 18px;
+      max-width: 520px;
+      padding: 14px;
+    }
+
+    .hero-logo img {
+      max-height: 132px;
+      object-fit: contain;
+      object-position: left center;
+      width: 100%;
+    }
+
+    .pulse {
+      background: var(--success);
+      border-radius: 50%;
+      box-shadow: 0 0 0 8px rgba(21, 163, 109, 0.18);
+      height: 9px;
+      width: 9px;
+    }
+
+    h1 {
+      color: white;
+      font-size: clamp(2.65rem, 5vw, 5.5rem);
+      letter-spacing: -0.065em;
+      line-height: 0.96;
+      max-width: 840px;
+    }
+
+    .hero-copy {
+      color: rgba(255, 255, 255, 0.86);
+      font-size: clamp(1.05rem, 2vw, 1.28rem);
+      margin: 24px 0 30px;
+      max-width: 690px;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .trust-row {
+      border-top: 1px solid rgba(255, 255, 255, 0.18);
+      display: grid;
+      gap: 20px;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      margin-top: 42px;
+      padding-top: 28px;
+      max-width: 760px;
+    }
+
+    .trust-row strong {
+      display: block;
+      font-size: 1.85rem;
+      letter-spacing: -0.04em;
+      line-height: 1;
+    }
+
+    .trust-row span {
+      color: rgba(255, 255, 255, 0.72);
+      display: block;
+      font-size: 0.92rem;
+      margin-top: 8px;
+    }
+
+    .hero-panel {
+      background: rgba(255, 255, 255, 0.94);
+      border: 1px solid rgba(255, 255, 255, 0.6);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      color: var(--ink);
+      overflow: hidden;
+    }
+
+    .panel-head {
+      background: linear-gradient(135deg, #fbf2ff, #ffffff);
+      border-bottom: 1px solid var(--line);
+      padding: 22px;
+    }
+
+    .panel-head span {
+      color: var(--brand);
+      font-size: 0.78rem;
+      font-weight: 900;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .panel-head h2 {
+      font-size: 1.45rem;
+      letter-spacing: -0.035em;
+      line-height: 1.15;
+      margin-top: 6px;
+    }
+
+    .panel-list {
+      display: grid;
+      gap: 0;
+      list-style: none;
+    }
+
+    .panel-list li {
+      align-items: flex-start;
+      border-bottom: 1px solid var(--line);
+      display: grid;
+      gap: 12px;
+      grid-template-columns: 36px 1fr;
+      padding: 18px 22px;
+    }
+
+    .panel-list li:last-child {
+      border-bottom: 0;
+    }
+
+    .panel-list i {
+      align-items: center;
+      background: #fbf2ff;
+      border-radius: 8px;
+      color: var(--brand);
+      display: flex;
+      height: 36px;
+      justify-content: center;
+      width: 36px;
+    }
+
+    .panel-list strong {
+      display: block;
+      line-height: 1.25;
+    }
+
+    .panel-list p {
+      color: var(--muted);
+      font-size: 0.93rem;
+      margin-top: 3px;
+    }
+
+    section {
+      padding: 92px 0;
+    }
+
+    .section-head {
+      align-items: end;
+      display: grid;
+      gap: 24px;
+      grid-template-columns: minmax(0, 0.9fr) minmax(260px, 0.5fr);
+      margin-bottom: 34px;
+    }
+
+    .kicker {
+      color: var(--brand);
+      display: block;
+      font-size: 0.8rem;
+      font-weight: 900;
+      letter-spacing: 0.14em;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      color: var(--ink);
+      font-size: clamp(2rem, 4vw, 3.3rem);
+      letter-spacing: -0.055em;
+      line-height: 1.03;
+    }
+
+    .section-head p,
+    .lead {
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    .services {
+      background: var(--soft);
+    }
+
+    .service-grid {
+      display: grid;
+      gap: 18px;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .service-card {
+      background: white;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 24px;
+      position: relative;
+      transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
+    }
+
+    .service-card:hover {
+      border-color: rgba(0, 119, 200, 0.38);
+      box-shadow: var(--shadow);
+      transform: translateY(-6px);
+    }
+
+    .service-icon {
+      align-items: center;
+      background: var(--ink);
+      border-radius: 8px;
+      color: white;
+      display: flex;
+      height: 44px;
+      justify-content: center;
+      margin-bottom: 18px;
+      width: 44px;
+    }
+
+    .service-card h3 {
+      font-size: 1.18rem;
+      letter-spacing: -0.03em;
+      line-height: 1.2;
+      margin-bottom: 10px;
+    }
+
+    .service-card p {
+      color: var(--muted);
+      font-size: 0.96rem;
+    }
+
+    .service-card button {
+      align-items: center;
+      background: transparent;
+      border: 0;
+      color: var(--brand);
+      cursor: pointer;
+      display: inline-flex;
+      font-weight: 900;
+      gap: 8px;
+      margin-top: 16px;
+      padding: 0;
+    }
+
+    .service-more {
+      color: var(--muted);
+      display: grid;
+      font-size: 0.92rem;
+      gap: 8px;
+      grid-template-rows: 0fr;
+      margin-top: 0;
+      overflow: hidden;
+      transition: grid-template-rows 220ms ease, margin-top 220ms ease;
+    }
+
+    .service-card.open .service-more {
+      grid-template-rows: 1fr;
+      margin-top: 16px;
+    }
+
+    .service-more > div {
+      min-height: 0;
+    }
+
+    .service-more ul {
+      list-style: none;
+    }
+
+    .service-more li {
+      padding: 5px 0 5px 20px;
+      position: relative;
+    }
+
+    .service-more li::before {
+      color: var(--success);
+      content: "✓";
+      font-weight: 900;
+      left: 0;
+      position: absolute;
+    }
+
+    .training {
+      background: white;
+    }
+
+    .course-grid {
+      display: grid;
+      gap: 16px;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .course-card {
+      background: var(--soft);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 22px;
+      transition: transform 180ms ease, box-shadow 180ms ease;
+    }
+
+    .course-card:hover {
+      box-shadow: var(--shadow);
+      transform: translateY(-5px);
+    }
+
+    .course-card i {
+      color: var(--brand);
+      font-size: 1.45rem;
+      margin-bottom: 16px;
+    }
+
+    .course-card h3 {
+      font-size: 1.08rem;
+      letter-spacing: -0.025em;
+      margin-bottom: 8px;
+    }
+
+    .course-card p {
+      color: var(--muted);
+      font-size: 0.94rem;
+    }
+
+    .why {
+      background: white;
+    }
+
+    .why-grid {
+      align-items: stretch;
+      display: grid;
+      gap: 22px;
+      grid-template-columns: 0.8fr 1fr;
+    }
+
+    .image-block {
+      background:
+        linear-gradient(135deg, rgba(16, 24, 39, 0.16), rgba(16, 24, 39, 0.46)),
+        url("assets/hero-bim.png");
+      background-position: center;
+      background-size: cover;
+      border-radius: var(--radius);
+      min-height: 440px;
+      position: relative;
+    }
+
+    .floating-note {
+      background: white;
+      border-radius: var(--radius);
+      bottom: 22px;
+      box-shadow: var(--shadow);
+      left: 22px;
+      max-width: 330px;
+      padding: 20px;
+      position: absolute;
+    }
+
+    .floating-note strong {
+      display: block;
+      font-size: 1.18rem;
+      letter-spacing: -0.03em;
+    }
+
+    .floating-note p {
+      color: var(--muted);
+      font-size: 0.94rem;
+      margin-top: 6px;
+    }
+
+    .proof-list {
+      display: grid;
+      gap: 14px;
+    }
+
+    .proof-item {
+      align-items: start;
+      background: var(--soft);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      display: grid;
+      gap: 16px;
+      grid-template-columns: 46px 1fr;
+      padding: 22px;
+    }
+
+    .proof-item i {
+      align-items: center;
+      background: white;
+      border-radius: 8px;
+      color: var(--brand);
+      display: flex;
+      height: 46px;
+      justify-content: center;
+      width: 46px;
+    }
+
+    .proof-item h3 {
+      font-size: 1.12rem;
+      letter-spacing: -0.025em;
+      line-height: 1.2;
+    }
+
+    .proof-item p {
+      color: var(--muted);
+      font-size: 0.96rem;
+      margin-top: 6px;
+    }
+
+    .process {
+      background: var(--ink);
+      color: white;
+    }
+
+    .process h2,
+    .process .kicker {
+      color: white;
+    }
+
+    .process .lead {
+      color: rgba(255, 255, 255, 0.72);
+    }
+
+    .timeline {
+      display: grid;
+      gap: 16px;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      margin-top: 34px;
+    }
+
+    .step {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: var(--radius);
+      padding: 22px;
+      position: relative;
+    }
+
+    .step span {
+      color: #74c9ff;
+      display: block;
+      font-size: 0.82rem;
+      font-weight: 900;
+      letter-spacing: 0.12em;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+    }
+
+    .step h3 {
+      font-size: 1.18rem;
+      letter-spacing: -0.035em;
+      margin-bottom: 10px;
+    }
+
+    .step p {
+      color: rgba(255, 255, 255, 0.72);
+      font-size: 0.94rem;
+    }
+
+    .contact {
+      background:
+        linear-gradient(180deg, var(--soft), white);
+    }
+
+    .contact-box {
+      background: white;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      display: grid;
+      gap: 0;
+      grid-template-columns: 0.82fr 1fr;
+      overflow: hidden;
+    }
+
+    .contact-info {
+      background: var(--ink);
+      color: white;
+      padding: 34px;
+    }
+
+    .contact-info h3 {
+      font-size: 1.55rem;
+      letter-spacing: -0.035em;
+      margin-bottom: 12px;
+    }
+
+    .contact-info p {
+      color: rgba(255, 255, 255, 0.74);
+      margin-bottom: 26px;
+    }
+
+    .contact-methods {
+      display: grid;
+      gap: 12px;
+    }
+
+    .contact-methods a,
+    .contact-methods div {
+      align-items: center;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 8px;
+      display: grid;
+      gap: 12px;
+      grid-template-columns: 38px 1fr;
+      padding: 14px;
+    }
+
+    .contact-methods i {
+      align-items: center;
+      background: rgba(255, 255, 255, 0.12);
+      border-radius: 8px;
+      display: flex;
+      height: 38px;
+      justify-content: center;
+      width: 38px;
+    }
+
+    .contact-methods strong {
+      display: block;
+      line-height: 1.2;
+    }
+
+    .contact-methods span {
+      color: rgba(255, 255, 255, 0.72);
+      display: block;
+      font-size: 0.9rem;
+      margin-top: 3px;
+    }
+
+    .contact-form {
+      padding: 34px;
+    }
+
+    .form-grid {
+      display: grid;
+      gap: 14px;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .field {
+      display: grid;
+      gap: 7px;
+    }
+
+    .field.full {
+      grid-column: 1 / -1;
+    }
+
+    label {
+      color: var(--muted);
+      font-size: 0.86rem;
+      font-weight: 800;
+    }
+
+    input,
+    select,
+    textarea {
+      background: var(--soft);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      color: var(--ink);
+      font: inherit;
+      min-height: 46px;
+      padding: 12px 13px;
+      width: 100%;
+    }
+
+    textarea {
+      min-height: 118px;
+      resize: vertical;
+    }
+
+    input:focus,
+    select:focus,
+    textarea:focus {
+      border-color: var(--brand);
+      box-shadow: 0 0 0 4px rgba(0, 119, 200, 0.12);
+      outline: none;
+    }
+
+    .form-actions {
+      align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+    .form-note {
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+
+    .faq {
+      background: white;
+      padding-top: 0;
+    }
+
+    .faq-list {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+
+    .faq-item {
+      border-bottom: 1px solid var(--line);
+    }
+
+    .faq-item:last-child {
+      border-bottom: 0;
+    }
+
+    .faq-question {
+      align-items: center;
+      background: white;
+      border: 0;
+      color: var(--ink);
+      cursor: pointer;
+      display: flex;
+      font: inherit;
+      font-weight: 900;
+      justify-content: space-between;
+      padding: 20px 22px;
+      text-align: left;
+      width: 100%;
+    }
+
+    .faq-answer {
+      color: var(--muted);
+      display: grid;
+      grid-template-rows: 0fr;
+      overflow: hidden;
+      transition: grid-template-rows 220ms ease;
+    }
+
+    .faq-answer > div {
+      min-height: 0;
+      padding: 0 22px;
+    }
+
+    .faq-item.open .faq-answer {
+      grid-template-rows: 1fr;
+    }
+
+    .faq-item.open .faq-answer > div {
+      padding-bottom: 20px;
+    }
+
+    .sticky-cta {
+      align-items: center;
+      background: white;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      bottom: 18px;
+      box-shadow: var(--shadow);
+      display: flex;
+      gap: 10px;
+      padding: 8px;
+      position: fixed;
+      right: 18px;
+      z-index: 45;
+    }
+
+    .sticky-cta a {
+      min-height: 40px;
+      padding: 10px 14px;
+    }
+
+    footer {
+      background: #071626;
+      color: white;
+      padding: 34px 0;
+    }
+
+    .footer-grid {
+      align-items: center;
+      display: flex;
+      gap: 20px;
+      justify-content: space-between;
+    }
+
+    .footer-grid p {
+      color: rgba(255, 255, 255, 0.72);
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(18px);
+      transition: opacity 550ms ease, transform 550ms ease;
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    @media (max-width: 980px) {
+      .nav-links {
+        background: white;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        box-shadow: var(--shadow);
+        display: none;
+        flex-direction: column;
+        left: 20px;
+        padding: 12px;
+        position: absolute;
+        right: 20px;
+        top: 82px;
+      }
+
+      .nav-links.open {
+        display: flex;
+      }
+
+      .nav-links a {
+        color: var(--ink);
+        width: 100%;
+      }
+
+      .nav-links a:hover,
+      .nav-links a.active {
+        background: #fbf2ff;
+        color: var(--brand-dark);
+      }
+
+      .menu-toggle {
+        display: inline-flex;
+      }
+
+      .nav-actions .btn {
+        display: none;
+      }
+
+      .hero-grid,
+      .section-head,
+      .why-grid,
+      .contact-box {
+        grid-template-columns: 1fr;
+      }
+
+      .service-grid,
+      .course-grid,
+      .timeline {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 640px) {
+      .container {
+        width: min(100% - 28px, 1160px);
+      }
+
+      .hero {
+        min-height: auto;
+        padding-top: 114px;
+      }
+
+      .hero-grid {
+        gap: 26px;
+      }
+
+      .hero-panel {
+        display: none;
+      }
+
+      .trust-row,
+      .service-grid,
+      .course-grid,
+      .timeline,
+      .form-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-actions .btn,
+      .form-actions .btn {
+        width: 100%;
+      }
+
+      section {
+        padding: 68px 0;
+      }
+
+      .image-block {
+        min-height: 360px;
+      }
+
+      .floating-note {
+        bottom: 14px;
+        left: 14px;
+        right: 14px;
+      }
+
+      .sticky-cta {
+        border-radius: 8px;
+        bottom: 10px;
+        left: 10px;
+        right: 10px;
+      }
+
+      .sticky-cta a {
+        flex: 1;
+      }
+
+      .footer-grid {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="container">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="brand" href="#home" aria-label="iBIMex home">
+          <span class="brand-mark"><img src="assets/ibimex-mark.png" alt="iBIMex logo mark"></span>
+          <span class="brand-name">
+            <strong>iBIMex</strong>
+            <span>Modelled to Perfection</span>
+          </span>
+        </a>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#training">Training</a></li>
+          <li><a href="#why">Why iBIMex</a></li>
+          <li><a href="#process">Process</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <a class="btn btn-whatsapp" href="https://wa.me/60182235662?text=Hi%20iBIMex%2C%20I%20would%20like%20to%20ask%20about%20BIM%20services." target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> Fast Response</a>
+          <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <div class="hero-logo"><img src="assets/ibimex-logo.png" alt="IBIMEX Consultancy (M) Sdn Bhd logo"></div>
+          <div class="eyebrow"><span class="pulse"></span> BIM services and training across Malaysia</div>
+          <h1>Professional BIM support for architecture, civil, structure and M&E teams.</h1>
+          <p class="hero-copy">IBIMEX Consultancy helps developers, consultants, contractors and project teams produce coordinated BIM models, MEP BIM deliverables, Revit modelling, shop drawings and practical BIM training.</p>
+          <div class="hero-actions">
+            <a class="btn btn-whatsapp" href="https://wa.me/60182235662?text=Hi%20iBIMex%2C%20I%20would%20like%20to%20ask%20about%20BIM%20services." target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> WhatsApp 018-223 5662</a>
+            <a class="btn btn-light" href="https://wa.me/60162017284?text=Hi%20iBIMex%2C%20I%20would%20like%20to%20ask%20about%20BIM%20training%20courses." target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> WhatsApp 016-201 7284</a>
+            <a class="btn btn-outline" href="mailto:enquiry@i-bimex.com?subject=BIM%20Support%20Enquiry"><i class="fa-solid fa-envelope"></i> Email iBIMex</a>
+          </div>
+          <div class="trust-row" aria-label="iBIMex highlights">
+            <div><strong>BIM</strong><span>Consulting, outsourcing, drafting and MEP coordination</span></div>
+            <div><strong>Revit</strong><span>Architecture, civil, structure, mechanical, electrical and gas training</span></div>
+            <div><strong>MY</strong><span>Project support and BIM courses throughout Malaysia</span></div>
+          </div>
+        </div>
+
+        <aside class="hero-panel reveal" aria-label="BIM readiness checklist">
+          <div class="panel-head">
+            <span>Fast project support</span>
+            <h2>Tell us what you need. We respond quickly on WhatsApp.</h2>
+          </div>
+          <ul class="panel-list">
+            <li>
+              <i class="fa-solid fa-city"></i>
+              <div><strong>BIM Consulting & Outsourcing</strong><p>Support for project teams that need specialist BIM capacity.</p></div>
+            </li>
+            <li>
+              <i class="fa-solid fa-route"></i>
+              <div><strong>MEP BIM & Shop Drawings</strong><p>Coordinated model and drawing support for architecture and M&E workflows.</p></div>
+            </li>
+            <li>
+              <i class="fa-solid fa-graduation-cap"></i>
+              <div><strong>BIM Training Courses</strong><p>Revit and BIM modelling courses for multiple construction disciplines.</p></div>
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="kicker">BIM Services</span>
+            <h2>BIM services for design, construction and M&E coordination.</h2>
+          </div>
+          <p>From consulting to outsourcing, drafting, MEP BIM, Revit modelling and shop drawings, iBIMex supports project teams across Malaysia.</p>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card reveal">
+            <div class="service-icon"><i class="fa-solid fa-comments"></i></div>
+            <h3>BIM Consulting</h3>
+            <p>Practical BIM advisory for project setup, model standards, coordination workflow and BIM execution planning.</p>
+            <button type="button" class="more-toggle">View details <i class="fa-solid fa-arrow-right"></i></button>
+            <div class="service-more"><div><ul><li>BIM execution plan support</li><li>Model requirement and workflow setup</li><li>Coordination strategy for consultants and contractors</li></ul></div></div>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-icon"><i class="fa-solid fa-user-gear"></i></div>
+            <h3>BIM Outsourcing</h3>
+            <p>Extra BIM capacity for teams that need skilled modelers, coordinators or documentation support.</p>
+            <button type="button" class="more-toggle">View details <i class="fa-solid fa-arrow-right"></i></button>
+            <div class="service-more"><div><ul><li>Architecture, civil, structure and MEP support</li><li>Short-term or project-based BIM manpower</li><li>Remote and Malaysia-wide project support</li></ul></div></div>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-icon"><i class="fa-solid fa-drafting-compass"></i></div>
+            <h3>Drafting Services</h3>
+            <p>Professional drafting and drawing preparation for construction documentation and coordination packages.</p>
+            <button type="button" class="more-toggle">View details <i class="fa-solid fa-arrow-right"></i></button>
+            <div class="service-more"><div><ul><li>CAD and BIM-based drafting</li><li>Construction drawing documentation</li><li>Clear drawing packages for review and submission</li></ul></div></div>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-icon"><i class="fa-solid fa-network-wired"></i></div>
+            <h3>MEP BIM Services</h3>
+            <p>Coordinated BIM support for mechanical, electrical, plumbing, gas and building services systems.</p>
+            <button type="button" class="more-toggle">View details <i class="fa-solid fa-arrow-right"></i></button>
+            <div class="service-more"><div><ul><li>MEP modelling and spatial coordination</li><li>Service route planning and drawing support</li><li>Architecture, structure and MEP clash review</li></ul></div></div>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-icon"><i class="fa-solid fa-cube"></i></div>
+            <h3>Revit Modeling</h3>
+            <p>Revit model production for architecture, civil, structure, mechanical, electrical and gas disciplines.</p>
+            <button type="button" class="more-toggle">View details <i class="fa-solid fa-arrow-right"></i></button>
+            <div class="service-more"><div><ul><li>Model creation and model cleanup</li><li>Discipline-specific Revit modelling support</li><li>Model outputs prepared for coordination and drawing production</li></ul></div></div>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-icon"><i class="fa-solid fa-file-lines"></i></div>
+            <h3>Shop Drawings</h3>
+            <p>Detailed shop drawing preparation to support site teams, contractors and construction coordination.</p>
+            <button type="button" class="more-toggle">View details <i class="fa-solid fa-arrow-right"></i></button>
+            <div class="service-more"><div><ul><li>Coordinated shop drawing packages</li><li>MEP and construction drawing support</li><li>Drawing updates based on model coordination</li></ul></div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="training" id="training">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="kicker">BIM Training Course</span>
+            <h2>Training for teams who want to model, coordinate and deliver better.</h2>
+          </div>
+          <p>Courses can be arranged for individuals, company teams or project groups, with training paths across key construction disciplines.</p>
+        </div>
+
+        <div class="course-grid">
+          <article class="course-card reveal"><i class="fa-solid fa-building"></i><h3>Architecture Modeling</h3><p>Revit architecture modelling, documentation setup and project model workflow.</p></article>
+          <article class="course-card reveal"><i class="fa-solid fa-road"></i><h3>Civil Modeling</h3><p>BIM fundamentals for civil project modelling and construction coordination support.</p></article>
+          <article class="course-card reveal"><i class="fa-solid fa-helmet-safety"></i><h3>Structure Modeling</h3><p>Structural BIM modelling, coordination preparation and drawing output workflow.</p></article>
+          <article class="course-card reveal"><i class="fa-solid fa-fan"></i><h3>Mechanical Modeling</h3><p>Mechanical services modelling, routing logic and MEP coordination basics.</p></article>
+          <article class="course-card reveal"><i class="fa-solid fa-bolt"></i><h3>Electrical Modeling</h3><p>Electrical BIM modelling for cable containment, equipment and coordinated layouts.</p></article>
+          <article class="course-card reveal"><i class="fa-solid fa-fire-flame-simple"></i><h3>Gas Modeling</h3><p>Gas service modelling workflow for coordinated M&E and construction deliverables.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="why" id="why">
+      <div class="container why-grid">
+        <div class="image-block reveal">
+          <div class="floating-note">
+            <strong>From model chaos to coordinated delivery.</strong>
+            <p>Good BIM is not just software. It is a clear workflow, clean information and a team that knows what to do next.</p>
+          </div>
+        </div>
+
+        <div class="proof-list">
+          <div class="section-head reveal" style="display:block;margin-bottom:10px;">
+            <span class="kicker">Why iBIMex</span>
+            <h2>A practical BIM partner for project delivery and team capability.</h2>
+          </div>
+          <article class="proof-item reveal">
+            <i class="fa-solid fa-clipboard-check"></i>
+            <div><h3>Construction-focused BIM support</h3><p>We understand BIM is not only modelling. It needs coordinated information, drawings and clear project workflow.</p></div>
+          </article>
+          <article class="proof-item reveal">
+            <i class="fa-solid fa-comments"></i>
+            <div><h3>Architecture and M&E coordination</h3><p>Our service positioning covers architecture, civil, structure, mechanical, electrical and gas coordination needs.</p></div>
+          </article>
+          <article class="proof-item reveal">
+            <i class="fa-solid fa-user-tie"></i>
+            <div><h3>Malaysia-wide service and training</h3><p>We support clients across Malaysia through BIM outsourcing, Revit modelling, shop drawings and BIM courses.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="process" id="process">
+      <div class="container">
+        <span class="kicker reveal">How it works</span>
+        <h2 class="reveal">Fast response, clear scope, professional BIM delivery.</h2>
+        <p class="lead reveal">Whether you need project service or training, the first step is a quick WhatsApp conversation.</p>
+        <div class="timeline">
+          <article class="step reveal"><span>01</span><h3>WhatsApp us</h3><p>Send your project type, discipline, deadline or training requirement.</p></article>
+          <article class="step reveal"><span>02</span><h3>Clarify scope</h3><p>We review whether you need consulting, outsourcing, drafting, MEP BIM, modelling or course support.</p></article>
+          <article class="step reveal"><span>03</span><h3>Confirm approach</h3><p>You receive a practical next step with suitable deliverables, timeline and team arrangement.</p></article>
+          <article class="step reveal"><span>04</span><h3>Start delivery</h3><p>We proceed with BIM production, coordination, shop drawings or structured training sessions.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="kicker">Contact iBIMex</span>
+            <h2>Need BIM service or training? Get a fast response on WhatsApp.</h2>
+          </div>
+          <p>Send your project discipline, location and deadline. We support enquiries across Malaysia.</p>
+        </div>
+
+        <div class="contact-box reveal">
+          <aside class="contact-info">
+            <h3>Get in touch</h3>
+            <p>Head office in Solaris Dutamas, Kuala Lumpur. BIM services and BIM training are available for clients throughout Malaysia.</p>
+            <div class="contact-methods">
+              <a href="https://wa.me/60182235662?text=Hi%20iBIMex%2C%20I%20would%20like%20to%20ask%20about%20BIM%20services." target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i><span><strong>WhatsApp Fast Response</strong><span>018-223 5662</span></span></a>
+              <a href="https://wa.me/60162017284?text=Hi%20iBIMex%2C%20I%20would%20like%20to%20ask%20about%20BIM%20training%20courses." target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i><span><strong>WhatsApp Training / Course</strong><span>016-201 7284</span></span></a>
+              <a href="tel:+60386883872"><i class="fa-solid fa-phone"></i><span><strong>Call</strong><span>+60 3 8688 3872</span></span></a>
+              <a href="mailto:enquiry@i-bimex.com"><i class="fa-solid fa-envelope"></i><span><strong>Email</strong><span>enquiry@i-bimex.com</span></span></a>
+              <div><i class="fa-solid fa-location-dot"></i><span><strong>Office</strong><span>B2-2-3, Solaris Dutamas, Kuala Lumpur. Service across Malaysia.</span></span></div>
+            </div>
+          </aside>
+
+          <form class="contact-form" id="contactForm">
+            <div class="form-grid">
+              <div class="field">
+                <label for="name">Your name</label>
+                <input id="name" name="name" autocomplete="name" placeholder="Name">
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" autocomplete="email" placeholder="you@company.com">
+              </div>
+              <div class="field">
+                <label for="company">Company</label>
+                <input id="company" name="company" autocomplete="organization" placeholder="Company name">
+              </div>
+              <div class="field">
+                <label for="service">Service needed</label>
+                <select id="service" name="service">
+                  <option>BIM Consulting</option>
+                  <option>BIM Outsourcing</option>
+                  <option>Drafting Services</option>
+                  <option>MEP BIM Services</option>
+                  <option>Revit Modeling</option>
+                  <option>Shop Drawings</option>
+                  <option>BIM Training Course</option>
+                </select>
+              </div>
+              <div class="field full">
+                <label for="message">Project details</label>
+                <textarea id="message" name="message" placeholder="Tell us your project location, discipline, timeline and BIM support or training needed."></textarea>
+              </div>
+            </div>
+            <div class="form-actions">
+              <button class="btn btn-primary" type="submit"><i class="fa-solid fa-paper-plane"></i> Prepare Email</button>
+              <a class="btn btn-whatsapp" href="https://wa.me/60182235662?text=Hi%20iBIMex%2C%20I%20would%20like%20to%20ask%20about%20BIM%20services." target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> WhatsApp Now</a>
+              <span class="form-note" id="formNote">No data is sent until you send the email.</span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq" id="faq">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="kicker">Questions</span>
+            <h2>Common things clients ask before contacting us.</h2>
+          </div>
+        </div>
+        <div class="faq-list reveal">
+          <div class="faq-item open">
+            <button class="faq-question" type="button">Do you provide BIM services outside Kuala Lumpur?<i class="fa-solid fa-chevron-down"></i></button>
+            <div class="faq-answer"><div>Yes. iBIMex supports BIM service and training enquiries across Malaysia. Share your project location on WhatsApp and we can advise the best arrangement.</div></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" type="button">What BIM services do you provide?<i class="fa-solid fa-chevron-down"></i></button>
+            <div class="faq-answer"><div>Our key services include BIM Consulting, BIM Outsourcing, Drafting Services, MEP BIM Services, Revit Modeling and Shop Drawings.</div></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" type="button">What BIM courses can be arranged?<i class="fa-solid fa-chevron-down"></i></button>
+            <div class="faq-answer"><div>Training can cover BIM/Revit modelling for Architecture, Civil, Structure, Mechanical, Electrical and Gas disciplines.</div></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" type="button">How do I avoid the website showing as Not Secure?<i class="fa-solid fa-chevron-down"></i></button>
+            <div class="faq-answer"><div>The website files now use HTTPS-safe links and include a CNAME for www.i-bimex.com. On GitHub Pages, make sure the custom domain is saved and Enforce HTTPS is enabled after the certificate is issued.</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="sticky-cta" aria-label="Quick contact">
+    <a class="btn btn-whatsapp" href="https://wa.me/60182235662?text=Hi%20iBIMex%2C%20I%20would%20like%20to%20ask%20about%20BIM%20services." target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> 018-223 5662</a>
+    <a class="btn btn-primary" href="https://wa.me/60162017284?text=Hi%20iBIMex%2C%20I%20would%20like%20to%20ask%20about%20BIM%20training%20courses." target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> 016-201 7284</a>
+  </div>
+
+  <footer>
+    <div class="container footer-grid">
+      <a class="brand" href="#home">
+        <span class="brand-mark"><img src="assets/ibimex-mark.png" alt="iBIMex logo mark"></span>
+        <span class="brand-name">
+          <strong>iBIMex</strong>
+          <span>Modelled to Perfection</span>
+        </span>
+      </a>
+      <p>© <span id="year">2026</span> IBIMEX Consultancy (M) Sdn Bhd. BIM services and BIM training across Malaysia.</p>
+    </div>
+  </footer>
+
+  <script>
+    const navLinks = document.getElementById("navLinks");
+    const menuToggle = document.getElementById("menuToggle");
+    const year = document.getElementById("year");
+
+    year.textContent = new Date().getFullYear();
+
+    menuToggle.addEventListener("click", () => {
+      const isOpen = navLinks.classList.toggle("open");
+      menuToggle.setAttribute("aria-expanded", String(isOpen));
+      menuToggle.innerHTML = isOpen ? '<i class="fa-solid fa-xmark"></i>' : '<i class="fa-solid fa-bars"></i>';
+    });
+
+    navLinks.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => {
+        navLinks.classList.remove("open");
+        menuToggle.setAttribute("aria-expanded", "false");
+        menuToggle.innerHTML = '<i class="fa-solid fa-bars"></i>';
+      });
+    });
+
+    document.querySelectorAll(".more-toggle").forEach((button) => {
+      button.addEventListener("click", () => {
+        const card = button.closest(".service-card");
+        const isOpen = card.classList.toggle("open");
+        button.innerHTML = isOpen
+          ? 'Hide details <i class="fa-solid fa-arrow-up"></i>'
+          : 'View details <i class="fa-solid fa-arrow-right"></i>';
+      });
+    });
+
+    document.querySelectorAll(".faq-question").forEach((button) => {
+      button.addEventListener("click", () => {
+        button.closest(".faq-item").classList.toggle("open");
+      });
+    });
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.14 });
+
+    document.querySelectorAll(".reveal").forEach((element) => observer.observe(element));
+
+    const sections = [...document.querySelectorAll("main section[id]")];
+    const navItems = [...document.querySelectorAll(".nav-links a")];
+
+    window.addEventListener("scroll", () => {
+      let current = null;
+      sections.forEach((section) => {
+        if (section.offsetTop <= window.scrollY + 120) {
+          current = section;
+        }
+      });
+      navItems.forEach((item) => {
+        item.classList.toggle("active", current && item.getAttribute("href") === `#${current.id}`);
+      });
+    });
+
+    document.getElementById("contactForm").addEventListener("submit", (event) => {
+      event.preventDefault();
+      const data = new FormData(event.currentTarget);
+      const subject = encodeURIComponent(`BIM Support Enquiry - ${data.get("service")}`);
+      const body = encodeURIComponent(
+        `Name: ${data.get("name") || "-"}\n` +
+        `Email: ${data.get("email") || "-"}\n` +
+        `Company: ${data.get("company") || "-"}\n` +
+        `Service needed: ${data.get("service")}\n\n` +
+        `Project details:\n${data.get("message") || "-"}`
+      );
+      window.location.href = `mailto:enquiry@i-bimex.com?subject=${subject}&body=${body}`;
+    });
+  </script>
+</body>
+</html>
